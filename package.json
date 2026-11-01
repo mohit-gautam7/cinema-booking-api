@@ -1,0 +1,20 @@
+{
+  "name": "cinema-booking-api",
+  "version": "1.0.0",
+  "description": "REST API for booking cinema seats with JWT auth and race-safe seat locking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": ["express", "sqlite", "booking", "rest-api"],
+  "author": "Mohit Gautam",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
